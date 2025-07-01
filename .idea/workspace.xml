@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd283ca7-39b5-4d0e-87f2-9d77c45afe9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CaseStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/Database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doa/ICarLeaseRepository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doa/ICarLeaseRepositoryImpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doa/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/unit_testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/CarNotFoundException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/CustomerrNotFoundException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/LeaseNotFoundException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/lease.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/DBConnection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/PropertyUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="fd283ca7-39b5-4d0e-87f2-9d77c45afe9c" name="Changes" comment="Final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Priyeshwar" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -61,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in unit_testing.py.executor": "Run",
-    "Python.DBConnection.executor": "Run",
-    "Python.ICarLeaseRepository.executor": "Run",
-    "Python.ICarLeaseRepositoryImpl.executor": "Run",
-    "Python.PropertyUtil.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Hexaware_python_foundation/Assignment",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in unit_testing.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DBConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ICarLeaseRepository.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ICarLeaseRepositoryImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PropertyUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Hexaware_python_foundation/Assignment&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CaseStudy\main" />
@@ -97,6 +75,30 @@
       <option name="presentableId" value="Default" />
       <updated>1750854091286</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final">
+      <option name="closed" value="true" />
+      <created>1751391352893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751391352893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>
