@@ -44,7 +44,7 @@ create table lease (
     start_date date,
     end_date date,
     type enum('daily', 'monthly')
-
+    
 );
 INSERT INTO lease (vehicle_id, customer_id, start_date, end_date, type) VALUES
 (1, 1, '2025-06-01', '2025-06-05', 'daily'),
@@ -53,13 +53,16 @@ INSERT INTO lease (vehicle_id, customer_id, start_date, end_date, type) VALUES
 (4, 4, '2025-06-05', '2025-07-05', 'monthly'),
 (5, 5, '2025-06-25', '2025-06-30', 'daily');
 
+ALTER TABLE lease ADD COLUMN rental_amount DECIMAL(10,2);
+
+
 
 create table payment (
     payment_id int primary key auto_increment,
     lease_id int references lease(leaseid),
     payment_date date,
     amount decimal(10, 2)
-
+  
 );
 
 INSERT INTO payment (lease_id, payment_date, amount) VALUES
@@ -73,3 +76,4 @@ INSERT INTO payment (lease_id, payment_date, amount) VALUES
 select * from lease;
 select * from vehicle;
 select * from payment;
+select * from customer;
